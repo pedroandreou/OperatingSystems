@@ -1,5 +1,5 @@
-The program below allows the user to pass a 32-bit virtual address through main arguments 
-& output the page number & offset for the given address by assuming 4𝐾𝐵 page size
+## 📰 Description
+The program below allows the user to pass a 32-bit virtual address through main arguments & output the page number & offset for the given address by assuming 4𝐾𝐵 page size
 
 
 ```
@@ -19,7 +19,6 @@ int main(int argc, char *argv[])
 }
 ```
 
-## Task:
-
+## :dart: Tasks to accomplish  
 - Modify the program above & call it 𝑣𝑎𝑑𝑑𝑟2.𝑐
 - The new program should output the page number & offset for the given address using 1𝑀𝐵 page size
