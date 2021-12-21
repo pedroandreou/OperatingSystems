@@ -1,8 +1,12 @@
-## Tasks:
-### 1. Rewrite the program below to use 𝑃𝑂𝑆𝐼𝑋 threads rather than 𝑓𝑜𝑟𝑘. 
-### 2. The behaviour of threaded version of the program and the analysis should lead identifying a potential problem with the compute function  when it is used in a threaded manner. 
-### Need to ensure that each process performs only a subset of work and this local result is merged into the actual result.   
-### This problem can be resolved using a Mutual Exclusion or a Semaphore.  
+## :dart: Tasks to accomplish  
+1. Rewrite the program below to use 𝑃𝑂𝑆𝐼𝑋 threads rather than 𝑓𝑜𝑟𝑘. 
+2. The behaviour of threaded version of the program and the analysis should lead identifying a potential problem with the compute function  when it is used in a threaded manner. 
+3. Need to ensure that each process performs only a subset of work and this local result is merged into the actual result.   
+
+## :key: Hint
+This problem can be resolved using a Mutual Exclusion or a Semaphore.  
+
+## 💻 Initial given program
 
 ```
 #include <stdio.h>
